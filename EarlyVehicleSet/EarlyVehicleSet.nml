@@ -37,7 +37,7 @@ item(FEAT_ROADVEHS, mps_stagecoach){
     property{
         name: string(STR_MPS_STAGECOACH);
         introduction_date: date(1000, 1, 1);
-        model_life: 1000;
+        model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
@@ -128,7 +128,7 @@ item(FEAT_ROADVEHS, mps_wagon){
     property{
         name: string(STR_MPS_WAGON);
         introduction_date: date(1000, 1, 1);
-        model_life: 1000;
+        model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
@@ -227,7 +227,7 @@ item(FEAT_ROADVEHS, witcombe_mineral){
     property{
         name: string(STR_WITCOMBE_MINERAL);
         introduction_date: date(1000, 1, 1);
-        model_life: 1000;
+        model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
@@ -269,7 +269,7 @@ item(FEAT_ROADVEHS, thomas_tanker){
     property{
         name: string(STR_THOMAS_TANKER);
         introduction_date: date(1000, 1, 1);
-        model_life: 1000;
+        model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
