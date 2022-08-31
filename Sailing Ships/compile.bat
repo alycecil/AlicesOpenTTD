@@ -1,0 +1,1 @@
+nmlc -c --grf ss07.grf sailingships_0.7.nml
