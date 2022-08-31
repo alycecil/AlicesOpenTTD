@@ -2,7 +2,7 @@ grf{
     grfid: "GL\05\01";
     name: string(STR_GRF_NAME);
     desc: string(STR_GRF_DESCRIPTION);
-    version: 2;
+    version: 3;
     min_compatible_version: 0;
 }
 
@@ -36,15 +36,15 @@ spriteset(spriteset_mps_stagecoach, "gfx/mpsStagecoach.png"){
 item(FEAT_ROADVEHS, mps_stagecoach){
     property{
         name: string(STR_MPS_STAGECOACH);
-        introduction_date: date(1700, 1, 1);
-        model_life: 160;
-        vehicle_life: 20;
+        introduction_date: date(1000, 1, 1);
+        model_life: 1000;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
         running_cost_factor: 10;
-        speed: 8 km/h;
+        speed: 35 km/h;
         power: 10 hp;
-        weight: 8 ton;
+        weight: 6 ton;
         cargo_capacity: 10;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_PASSENGERS);
@@ -68,11 +68,11 @@ item(FEAT_ROADVEHS, perry_omnibus){
         name: string(STR_PERRY_OMNIBUS);
         introduction_date: date(1845, 1, 1);
         model_life: 70;
-        vehicle_life: 20;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 15;
         running_cost_factor: 10;
-        speed: 16 km/h;
+        speed: 42 km/h;
         power: 10 hp;
         weight: 10 ton;
         cargo_capacity: 20;
@@ -98,7 +98,7 @@ item(FEAT_ROADVEHS, balogh_bus){
         name: string(STR_BALOGH_BUS);
         introduction_date: date(1905, 1, 1);
         model_life: 40;
-        vehicle_life: 8;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 80;
         running_cost_factor: 75;
@@ -127,15 +127,15 @@ spriteset(spriteset_mps_wagon, "gfx/mpsWagon.png"){
 item(FEAT_ROADVEHS, mps_wagon){
     property{
         name: string(STR_MPS_WAGON);
-        introduction_date: date(1700, 1, 1);
-        model_life: 220;
-        vehicle_life: 20;
+        introduction_date: date(1000, 1, 1);
+        model_life: 1000;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
         running_cost_factor: 10;
-        speed: 8 km/h;
+        speed: 35 km/h;
         power: 10 hp;
-        weight: 8 ton;
+        weight: 6 ton;
         cargo_capacity: 10;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: ALL_CARGO_CLASSES;
@@ -226,15 +226,15 @@ switch(FEAT_ROADVEHS, SELF, switch_witcombe_mineral_sprites, cargo_type_in_veh){
 item(FEAT_ROADVEHS, witcombe_mineral){
     property{
         name: string(STR_WITCOMBE_MINERAL);
-        introduction_date: date(1700, 1, 1);
-        model_life: 220;
-        vehicle_life: 20;
+        introduction_date: date(1000, 1, 1);
+        model_life: 1000;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
         running_cost_factor: 10;
-        speed: 8 km/h;
+        speed: 35 km/h;
         power: 10 hp;
-        weight: 8 ton;
+        weight: 6 ton;
         cargo_capacity: 10;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_BULK);
@@ -268,15 +268,15 @@ switch(FEAT_ROADVEHS, SELF, switch_thomas_tanker_sprites, cargo_type_in_veh){
 item(FEAT_ROADVEHS, thomas_tanker){
     property{
         name: string(STR_THOMAS_TANKER);
-        introduction_date: date(1700, 1, 1);
-        model_life: 220;
-        vehicle_life: 20;
+        introduction_date: date(1000, 1, 1);
+        model_life: 1000;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
         running_cost_factor: 10;
-        speed: 8 km/h;
+        speed: 35 km/h;
         power: 10 hp;
-        weight: 8 ton;
+        weight: 6 ton;
         cargo_capacity: 10;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_LIQUID);
@@ -302,7 +302,7 @@ item(FEAT_ROADVEHS, thomas_armored){
         name: string(STR_THOMAS_ARMORED);
         introduction_date: date(1903, 1, 1);
         model_life: 40;
-        vehicle_life: 10;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 85;
         running_cost_factor: 70;
@@ -356,7 +356,7 @@ item(FEAT_ROADVEHS, mps_bolster){
         name: string(STR_MPS_BOLSTER);
         introduction_date: date(1906, 1, 1);
         model_life: 40;
-        vehicle_life: 10;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 80;
         running_cost_factor: 70;
@@ -387,7 +387,7 @@ item(FEAT_ROADVEHS, balogh_food){
         name: string(STR_BALOGH_FOOD);
         introduction_date: date(1909, 1, 1);
         model_life: 40;
-        vehicle_life: 10;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 75;
         running_cost_factor: 70;
@@ -429,7 +429,7 @@ item(FEAT_ROADVEHS, witcombe_fruit){
         name: string(STR_WITCOMBE_FRUIT);
         introduction_date: date(1904, 1, 1);
         model_life: 40;
-        vehicle_life: 10;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 80;
         running_cost_factor: 70;
@@ -460,7 +460,7 @@ item(FEAT_ROADVEHS, thomas_goods){
         name: string(STR_THOMAS_GOODS);
         introduction_date: date(1901, 1, 1);
         model_life: 40;
-        vehicle_life: 10;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 70;
         running_cost_factor: 70;
@@ -494,7 +494,7 @@ item(FEAT_ROADVEHS, perry_livestock){
         name: string(STR_PERRY_LIVESTOCK);
         introduction_date: date(1902, 1, 1);
         model_life: 40;
-        vehicle_life: 10;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 75;
         running_cost_factor: 70;
@@ -523,7 +523,7 @@ item(FEAT_ROADVEHS, balogh_mail){
         name: string(STR_BALOGH_MAIL);
         introduction_date: date(1898, 1, 1);
         model_life: 45;
-        vehicle_life: 10;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 75;
         running_cost_factor: 70;
@@ -620,7 +620,7 @@ item(FEAT_ROADVEHS, mps_mineral){
         name: string(STR_MPS_MINERAL);
         introduction_date: date(1910, 1, 1);
         model_life: 35;
-        vehicle_life: 10;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 70;
         running_cost_factor: 70;
@@ -661,7 +661,7 @@ item(FEAT_ROADVEHS, mps_tanker){
         name: string(STR_MPS_TANKER);
         introduction_date: date(1910, 1, 1);
         model_life: 35;
-        vehicle_life: 10;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 75;
         running_cost_factor: 70;
@@ -701,7 +701,7 @@ item(FEAT_ROADVEHS, perry_wood){
         name: string(STR_PERRY_WOOD);
         introduction_date: date(1902, 1, 1);
         model_life: 40;
-        vehicle_life: 10;
+        vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 75;
         running_cost_factor: 70;
@@ -898,7 +898,7 @@ item(FEAT_TRAINS, john_bull){    //https://en.wikipedia.org/wiki/John_Bull_(loco
         climates_available: ALL_CLIMATES;
         introduction_date: date(1831, 1, 1);
         model_life: 35;
-        vehicle_life: 10;
+        vehicle_life: 27;
         speed: 40 km/h;
         tractive_effort_coefficient: 0.6;
         weight: 9 ton;
@@ -926,7 +926,7 @@ item(FEAT_TRAINS, lady_of_the_lake){    //https://en.wikipedia.org/wiki/LNWR_Lad
         climates_available: ALL_CLIMATES;
         introduction_date: date(1859, 1, 1);
         model_life: 45;
-        vehicle_life: 15;
+        vehicle_life: 27;
         speed: 45 km/h;
         tractive_effort_coefficient: 0.25;
         weight: 27 ton;
@@ -954,7 +954,7 @@ item(FEAT_TRAINS, wolverhampton_2021){    //https://en.wikipedia.org/wiki/GWR_20
         climates_available: ALL_CLIMATES;
         introduction_date: date(1897, 1, 1);
         model_life: 50;
-        vehicle_life: 15;
+        vehicle_life: 27;
         speed: 55 km/h;
         tractive_effort_coefficient: 0.2;
         weight: 41 ton;

@@ -1,6 +1,6 @@
 # Early Vehicle Set
 
-This NewGRF contains road vehicles that appear from 1700 and trains that appear from 1830, so that you can start games earlier. For early ships, you can use the [Sailing Ships](https://www.tt-forums.net/viewtopic.php?t=49040) NewGRF by J Mitchell.
+This NewGRF contains road vehicles that appear from 1000 and trains that appear from 1830, so that you can start games earlier. For early ships, you can use the [Sailing Ships](https://www.tt-forums.net/viewtopic.php?t=49040) NewGRF by J Mitchell.
 
 Graphics are based on various graphics by the [OpenGFX team](https://github.com/OpenTTD/OpenGFX), licensed under the GPL v2.
 
@@ -11,11 +11,11 @@ Graphics are based on various graphics by the [OpenGFX team](https://github.com/
 
 Name | Introduction year | Available until | Capacity | Speed
 ---- | ----------------- | --------------- | -------- | -----
-MPS Stagecoach | 1700 | 1860 | 10 passengers | 8 km/h
-Perry Horsebus | 1845 | 1915 | 20 passengers | 16 km/h
-MPS Goods Wagon | 1700 | 1920 | 10 crates of goods (refittable to anything except passengers, minerals and liquids) | 8 km/h
-Witcombe Mineral Wagon | 1700 | 1920 | 10 tons of coal | 8 km/h
-Thomas Tanker Wagon | 1700 | 1920 | 10 000 liters of oil (refittable to any liquid) | 8 km/h
+MPS Stagecoach | 1000 | 1860 | 10 passengers | 35 km/h
+Perry Horsebus | 1845 | 1915 | 20 passengers | 42 km/h
+MPS Goods Wagon | 1000 | 1920 | 10 crates of goods (refittable to anything except passengers, minerals and liquids) | 35 km/h
+Witcombe Mineral Wagon | 1000 | 1920 | 10 tons of coal | 35 km/h
+Thomas Tanker Wagon | 1000 | 1920 | 10 000 liters of oil (refittable to any liquid) | 35 km/h
 
 ### Buses and Trucks
 
