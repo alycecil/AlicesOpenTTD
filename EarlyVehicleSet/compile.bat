@@ -1,0 +1,1 @@
+nmlc -c --grf EarlyVehicleSet.grf EarlyVehicleSet.nml
