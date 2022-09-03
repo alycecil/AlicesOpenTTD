@@ -1,0 +1,126 @@
+====================================
+FIRS and CHIPS style objects (FaCso) CHANGELOG (0.1.10)
+====================================
+Industry and miscellaneous tiles as objects, to expand and prettify/grungify your industrial areas.
+	NewGRF by rotterdxm, based on graphics by the FIRS team.
+	Find me on tt-forums.net or on the OpenTTD Discord.
+	Discuss FaCso here: https://www.tt-forums.net/viewtopic.php?f=26&t=86676
+
+=======
+GRF Name: facso.grf
+
+----------------
+Changelog
+----------------
+facso_0.1.10:
+*	New inclusions: Ammonia and plastics plant sets completed and expanded (all 2CC). FIRS flour mill/plantation buildings (mediterranean style) in terrain-aware and cobblestone groundtile flavors; I created a lot of new variants I plan to add more misc. buildings in this category.
+*	Fixed a few oversights, such as incorrect groundtypes for some buildings and purchase menu images not being lined up quite right.
+
+facso_0.1.9:
+*	Small update, added FIRS 4 cryo plant with some unused sprites and edits; added a few set of CHIPS/FIRS misc. small buildings (petrol stations, parcel offices, etc.). Added OpenGFX lumber mill and CHIPS grain silos.
+
+facso_0.1.8:
+*	First main release. All of the code has been redone and the purchase menu has been completely reorganized.
+	THIS MEANS THERE IS NO BACKWARDS COMPATIBILITY WITH SAVEGAMES FROM OLDER FaCso VERSIONS.
+	This release should be a stable platform and it's unlikely that I'll have to break backwards compatibility again.
+
+*	Fences, terrain transitions and decorative cargo tiles have been spun off into their own newGRF, called CIRso (CHIPS Industrial Renewal style objects).
+
+*	Many hundreds of new objects have been added across the dirt, concrete and cobblestone categories.
+	A lot of these were done by yours truly, based on existing FIRS graphics.
+	Most FIRS industrial buildings are available; farms and the like will come eventually, but are not a priority.
+
+*	Second company color (2CC) support has been implemented across the board.
+
+*	Purchase menu has been overhauled and consolidated. Most of the purchase menu items have 4 views, and most views have 3 to 4 randomized variants (sometimes less, rarely more).
+	The purchase menu object description will mention if the object has 2CC support and/or randomized variations. Just keep clicking until you get what you want, ISR-style.
+
+*	I've received a few comments about how some of the player colors are making some buildings "pop" too much. Others have asked whether I plan to include *all* player colors.
+	As things stand, it's not likely. I don't have a solution for providing all player colors for all objects without:
+		A. completely cluttering up the purchase menu
+		B. and also running into the newGRF limit of 256 objects
+	I might add some more neutrally-colored or toned-down versions of specific objects, and am open to requests.
+	For now, I recommend choosing a less saturated color scheme for your primary and/or secondary company color.
+
+*	Support for snow-aware buildings is in the works! For now, only the animated mine carts have this feature.
+	Currently the plan is to start with the "dirt"-based set of objects (mines, lime kiln, copper refinery, pyrite smelter, steel mill, etc.).
+	Snow-aware buildings will be rolled out *very* gradually. Not all FIRS industries are snow-aware; I'll be providing sprites back to FIRS when I need to create them.
+
+facso_0.1.7:
+*	Added clay pit, phosphate mine and quarry. The mining pit area is ground-aware.
+	It will adapt to:
+	* normal (grass)
+	* desert (unfortunately not the transitional semi-desert/grass mixed tiles)
+	* snow tiles (even changing with the seasons!)
+*	Expanded tile choices for the above mines. Full water tiles included!
+*	FIX: I did a stupid on the resource tiles.
+	Many of the random concrete, cobblestone and snow tiles displayed as dirt. Oops.
+
+facso_0.1.6:
+*	Added cargo resource tiles from CHIPS for almost every resource (only items not included are farm animals and grain silos).
+	They have their own subsection, and are available for all ground types (dirt, concrete, cobblestone and snow).
+	Resource tiles come in 9 to 12 random variants each, with the smaller piles having a lower random chance to be selected when placing the object.
+
+facso_0.1.5:
+*	Added cobblestone buildings, such as the Iron Works, Textile Mill, Flour Mill, and many others.
+*	Animated Steel Mill/Blast Furnace buildings added.
+*	Started adding some CHIPS objects.
+*	Made some more variants of existing FIRS objects.
+
+facso_0.1.4:
+*	Included all remaining mine buildings (Iron Ore, Pyrite, Potash, Manganese, Limestone). All have animated mine carts!
+*	Added more buildings. Many new multi-tile objects, now also animated!
+*	Started adding new objects from the FIRS 4 github w.i.p, more to come; thanks to andythenorth for sharing.
+*	Made some new variants of existing objects, some also based on FIRS 4 material.
+
+facso_0.1.3:
+*	More tidying up of the NML.
+*	Divided up buildings into dirt-tile and concrete-tile subsections, re-ordered some.
+*	Added non-glitchy purchase menu images for multi-tile buildings.
+*	Added changelog file.
+*	Added credits and licensing.
+
+facso_0.1.2 (unreleased):
+*	Tidied up a lot of the NML.
+*	Added experimental multi-tile objects.
+
+facso_0.1.1:
+*	Many more buildings added, some modular.
+
+facso_0.1.0:
+*	Tons of buildings added.
+
+facso_0.0.3_test:
+*	More buildings added.
+*	Basic animations added for mine headgear towers.
+
+facso_0.0.2:
+*	More buildings added.
+*	Switches added for multiple views.
+*	Company color added for most buildings
+
+facso_0.0.1_test:
+*	Started out with the coal mine buildings. Not much going on here yet.
+
+
+----------------
+License Exceptions
+----------------
+All assets within the project required to produce the grf (program) are GPL(v2) or GPL(v2)-compatible.
+
+Copying, redistribution or modification of these assets must be GPL(v2) compliant.
+
+Some assets which are optional for producing the grf use free software licenses that are not GPL(v2) compatible.
+
+Copying, redistribution or modification of these assets must be compliant with their respective licenses.
+
+----------------
+Thankyous
+----------------
+Much gratitude to the people who have spent all these years coding, modding, spriting, developing and documenting.
+
+Thanks to GarryG for uploading many of his Auz objects newGRF source files, which I learned quite a bit from.
+
+Special shout outs to spnda, Gwyd and Erato on the openTTD Discord for helping me get started with openTTD modding!
+
+AlexTheDacian, you are the hype king and I appreciate that so much. Thanks for sharing your screenshots featuring FaCso!

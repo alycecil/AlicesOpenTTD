@@ -1,0 +1,211 @@
+##grflangid 0x01
+STR_GRF_NAME                                                    :FIRS and CHIPS style objects - v{VERSION}
+STR_GRF_DESCRIPTION                                             :{TITLE} Industry/station tiles as objects. Many objects can use 1CC. Currently, it is a mix of dirt, concrete and cobblestone based industry objects. Also included a 99% complete set of tiles with bulk and piece cargo for everything in FIRS.
+STR_BUILDINGS_1X1_PURCHASE										:4 views, multiple variants
+
+STR_FACG														:FIRS and CHIPS style objects - ground tiles
+STR_FACD														:FIRS and CHIPS style objects - dirt
+STR_FACC														:FIRS and CHIPS style objects - concrete
+STR_FACO														:FIRS and CHIPS style objects - cobblestone
+STR_FACI														:FIRS and CHIPS style objects - snow
+STR_FACN														:FIRS and CHIPS style objects - grass & terrain-aware
+
+STR_GROUND														:Ground tiles
+STR_GROUND_PURCHASE												:FIRS-style ground tiles
+STR_MISCTILES_1X1_HUTS											:Huts and sheds
+STR_MISCTILES_1X1_HUTS_PURCHASE									:4 views, 2CC, randomized
+STR_COALPYRITE_1X1_BUILDINGS1									:Coal & pyrite mine buildings
+STR_COALPYRITE_1X1_BUILDINGS1_PURCHASE							:4 views, 2CC, randomized
+STR_COALPYRITE_1X1_BUILDINGS2									:Coal & pyrite mine buildings
+STR_COALPYRITE_1X1_BUILDINGS2_PURCHASE							:4 views, 2CC, randomized
+STR_COALPYRITE_1X1_BUILDINGS3									:Coal & pyrite mine buildings
+STR_COALPYRITE_1X1_BUILDINGS3_PURCHASE							:4 views, 2CC, randomized
+STR_DIAMOND_1X1_BUILDINGS										:Diamond mine large buildings
+STR_DIAMOND_1X1_BUILDINGS_PURCHASE								:4 views, 2CC, randomized
+STR_SODA_ASH_1X1_BUILDINGS										:Soda ash mine large buildings
+STR_SODA_ASH_1X1_BUILDINGS_PURCHASE								:4 views, 2CC, randomized
+STR_SODA_ASH_1X1_BUILDINGSMALL									:Soda ash mine small buildings
+STR_SODA_ASH_1X1_BUILDINGSMALL_PURCHASE							:2 views, 2CC, randomized
+STR_NITRATE_1X1_BUILDINGS										:Nitrate mine buildings
+STR_NITRATE_1X1_BUILDINGS_PURCHASE								:4 views, 2CC, randomized
+STR_NITRATE_1X1_WAREHOUSE_SHED									:Nitrate mine shed and silos
+STR_NITRATE_1X1_WAREHOUSE_SHED_PURCHASE							:4 views, 2CC, randomized
+STR_NITRATE_SODA_ASH_1X1_BUILDING_SMALL							:Nitrate and Soda ash mine buildings
+STR_NITRATE_SODA_ASH_1X1_BUILDING_SMALL_PURCHASE				:4 views, 2CC, randomized
+STR_PYRITESMELTER_1X1_BUILDINGS									:Pyrite smelter structures
+STR_PYRITESMELTER_1X1_BUILDINGS_PURCHASE						:4 views, 2CC, randomized
+STR_PYRITECOPPER_1X1_BUILDINGS									:Pyrite smelter and copper refinery buildings
+STR_PYRITECOPPER_1X1_BUILDINGS_PURCHASE							:4 views, 2CC, randomized
+STR_COPPERREF_1X1_BUILDINGS										:Copper refinery structures
+STR_COPPERREF_1X1_BUILDINGS_PURCHASE							:4 views, 2CC, randomized
+STR_COPPERREFFURNACE_1X1_BUILDINGS								:Copper refinery structures and Pyrite smelter furnace
+STR_COPPERREFFURNACE_1X1_BUILDINGS_PURCHASE						:4 views, 2CC, randomized
+STR_LIMEKILN_1X1_BUILDINGS										:Lime kiln buildings
+STR_LIMEKILN_1X1_BUILDINGS_PURCHASE								:4 views, 2CC, randomized
+STR_PYRITESLAGLIME_1X1_BUILDINGS								:Pyrite smelter, slag grinder and lime kiln structures
+STR_PYRITESLAGLIME_1X1_BUILDINGS_PURCHASE						:4 views, 2CC, randomized
+STR_SLAGGRINDER_1X1_BUILDINGS									:Slag grinding plant buildings
+STR_SLAGGRINDER_1X1_BUILDINGS_PURCHASE							:4 views, 2CC, randomized
+STR_SLAGGRINDER_1X1_PILES_SILOS									:Slag grinding plant silos and slag piles
+STR_SLAGGRINDER_1X1_PILES_SILOS_PURCHASE						:4 views, 2CC, randomized, animated
+STR_SLAGGRINDER_1X1_BUILDINGSFIRS4								:Slag grinding plant buildings
+STR_SLAGGRINDER_1X1_BUILDINGSFIRS4_PURCHASE						:4 views, 2CC, randomized
+STR_COKEOVEN_1X1_BUILDINGS1										:Coke oven rails and fences
+STR_COKEOVEN_1X1_BUILDINGS1_PURCHASE							:4 views, 2CC, randomized
+STR_COKEOVEN_1X1_BUILDINGS2										:Coke oven structures
+STR_COKEOVEN_1X1_BUILDINGS2_PURCHASE							:4 views, 2CC, randomized
+STR_EARCFURNACE_BUILDINGS										:Electric arc furnace buildings
+STR_EARCFURNACE_BUILDINGS_PURCHASE								:4 views
+STR_CHEMPLANT_1X1_BUILDINGS_1									:Chemical plant buildings
+STR_CHEMPLANT_1X1_BUILDINGS_1_PURCHASE							:4 views, 2CC, randomized
+STR_CHEMPLANT_1X1_BUILDINGS_2									:Chemical plant small buildings
+STR_CHEMPLANT_1X1_BUILDINGS_2_PURCHASE							:4 views, 2CC, randomized
+STR_OILREF_1X1_BUILDINGS										:Oil refinery buildings
+STR_OILREF_1X1_BUILDINGS_PURCHASE								:4 views, 2CC, randomized
+STR_SUGREF_1X1_BUILDINGS1										:Sugar refinery buildings
+STR_SUGREF_1X1_BUILDINGS1_PURCHASE								:4 views, 2CC, randomized
+STR_SUGREF_1X1_BUILDINGS2										:Sugar refinery small buildings
+STR_SUGREF_1X1_BUILDINGS2_PURCHASE								:4 views, 2CC, randomized
+STR_FOODPROC_1X1_BUILDINGS										:Food processor buildings
+STR_FOODPROC_1X1_BUILDINGS_PURCHASE								:4 views, 2CC, randomized
+STR_ABCPLANTS_1X1_BUILDINGS1									:Plant buildings small 1
+STR_ABCPLANTS_1X1_BUILDINGS1_PURCHASE							:4 views, 2CC, randomized; from ammonia, biorefinery, cement industries.
+STR_ABCPLANTS_1X1_BUILDINGS2									:Plant buildings small 2
+STR_ABCPLANTS_1X1_BUILDINGS2_PURCHASE							:4 views, 2CC, randomized; from ammonia, biorefinery, cement industries.
+STR_ABCPLANTS_BUILDINGS4A										:Plant buildings 4a
+STR_ABCPLANTS_BUILDINGS4A_PURCHASE								:4 views. From ammonia, biorefinery, cement industries.
+STR_ABCPLANTS_BUILDINGS4B										:Plant buildings 4b
+STR_ABCPLANTS_BUILDINGS4B_PURCHASE								:4 views. From ammonia, biorefinery, cement industries.
+STR_BIOREFINERY_1X2_2X1_TANKSSHED								:Biorefinery buildings
+STR_BIOREFINERY_1X2_2X1_TANKSSHED_PURCHASE						:4 views, 2CC, randomized
+STR_ABCPLANTS_BLARGE_3X1_1X3									:Ammonia & plastics plant plant
+STR_ABCPLANTS_BLARGE_3X1_1X3_PURCHASE							:4 views, 2CC
+STR_AMMONIA_TESTB												:Ammonia plant large shed
+STR_AMMONIA_TESTB_PURCHASE										:1 view
+STR_PLASTICSPLANT_2X2_BUILDINGS									:Plastics plant buildings
+STR_PLASTICSPLANT_2X2_BUILDINGS_PURCHASE						:4 views, 2CC
+STR_PLASTICSPLANT_2X1_1X2_BUILDINGS								:Plastics plant sheds
+STR_PLASTICSPLANT_2X1_1X2_BUILDINGS_PURCHASE					:4 views, 2CC, randomized
+STR_PLASTICSPLANT_1X1_BUILDINGS									:Plastics plant buildings
+STR_PLASTICSPLANT_1X1_BUILDINGS_PURCHASE						:2 views, 2CC, randomized
+STR_EARCFURNACE_MACHINESHOP_2X1_1X2_DIRT						:Electric arc furnace & machine shop
+STR_EARCFURNACE_MACHINESHOP_2X1_1X2_PURCHASE					:4 views, 2CC, randomized
+STR_EARCFURNACE_MACHINESHOP_2X1_1X2_CONCRETE					:Recycling depot & machine shop
+STR_MACHINESHOP_2X2_BUILDINGS									:Machine shop buildings
+STR_MACHINESHOP_2X2_BUILDINGS_PURCHASE							:4 views, 2CC
+STR_MACHINESHOP_1X1_BSMALL										:Machine shop buildings
+STR_MACHINESHOP_1X1_BSMALL_PURCHASE								:4 views, 2CC, randomized
+STR_EARCFURNACE_BUILDINGSC										:Recycling depot small buildings
+STR_EARCFURNACE_BUILDINGSC_PURCHASE								:4 views
+STR_CEMENT_PLANT_SHEDC											:Cement plant shed
+STR_CEMENT_PLANT_SHEDC_PURCHASE									:1x2 building
+STR_CEMENT_PLANT_SHEDD											:Cement plant shed
+STR_CEMENT_PLANT_SHEDD_PURCHASE									:1x2 building
+STR_CEMENT_2X1_1X2_MIXER_SILOHUT								:Cement plant mixer and silo
+STR_CEMENT_2X1_1X2_MIXER_SILOHUT_PURCHASE						:Large buildings, animated, 2 views, 2CC, randomized
+STR_BUILDERSYARD_1X1											:Builders yard
+STR_BUILDERSYARD_1X1_PURCHASE									:4 views, 2CC, randomized
+STR_CARBONBLACK_1X1_BUILDINGS1									:Carbon black plant buildings
+STR_CARBONBLACK_1X1_BUILDINGS1_PURCHASE							:4 views, 2CC, randomized
+STR_CARBONBLACK_1X1_BUILDINGS2									:Carbon black and metal fabrication plant buildings
+STR_CARBONBLACK_1X1_BUILDINGS2_PURCHASE							:4 views, 2CC, randomized
+STR_METALFAB_AMMONIA_1X2_2X1									:Metal fabrication and Ammonia plant large sheds
+STR_METALFAB_AMMONIA_1X2_2X1_PURCHASE							:4 views, 2 randomized variants each
+STR_MINEALL_1X1_TOWER											:Mine building towers
+STR_MINEALL_1X1_TOWER_PURCHASE									:4 views, 2CC, randomized, animated
+STR_MINEIRON_1X1_BUILDINGS										:Iron ore mine buildings
+STR_MINEIRON_1X1_BUILDINGS_PURCHASE								:4 views, 2CC
+STR_MINEPYRITE_1X1_BUILDINGS									:Other mines buildings
+STR_MINEPYRITE_1X1_BUILDINGS_PURCHASE							:4 views, 2CC, randomized; pyrite, manganese, potash, limestone
+STR_MINEIRON_CART												:Iron ore mine trestle
+STR_MINEIRON_CART_PURCHASE										:4 views, 2CC, randomized, animated
+STR_MINEALL_CART												:Limestone, manganese, pyrite & potash mine trestles
+STR_MINEALL_CART_PURCHASE										:4 views, 2CC, randomized, animated
+STR_SMITHYFORGE													:Smithy forge
+STR_SMITHYFORGE_PURCHASE										:2x1 building
+STR_FURNITUREFACTORY											:Furniture factory large
+STR_FURNITUREFACTORY_PURCHASE									:3x1 building
+STR_FURNITUREFACTORY_METALWORKSHOP_2X1_1X2						:Furniture factory/Metal workshop
+STR_FURNITUREFACTORY_METALWORKSHOP_2X1_1X2_PURCHASE				:Large building, 4 views, 2CC, randomized
+STR_FURNITUREFACTORY_TEXTILEMILL_1X1_BUILDINGS					:Furniture factory/textile mill
+STR_FURNITUREFACTORY_TEXTILEMILL_1X1_BUILDINGS_PURCHASE			:Small buildings, 4 views, 2CC, randomized
+STR_TEXTILE_FLOURMILL_2X1_1X2									:Textile mill large building
+STR_TEXTILE_FLOURMILL_2X1_1X2_PURCHASE							:4 views, 2CC
+STR_BREWERY_2X1													:Brewery
+STR_BREWERY_2X1_PURCHASE										:Large building, 2CC, randomized
+STR_BREWERYBRICK_1X1_BUILDINGS									:Brewery and Brickworks
+STR_BREWERYBRICK_1X1_BUILDINGS_PURCHASE							:4 views, 2CC, randomized
+STR_BRICKSHED_INCINERATOR_2X1_1X2								:Brickworks and Incinerator
+STR_BRICKSHED_INCINERATOR_2X1_1X2_PURCHASE						:Large building, 4 views, 2CC, randomized
+STR_GLASSWORKS_FLOURMILL_2X2_BUILDINGS							:Glass works
+STR_GLASSWORKS_FLOURMILL_2X2_BUILDINGS_PURCHASE					:Large building, 4 views, 2CC, randomized
+STR_IRONWORKS_1X1_BUILDINGS										:Iron works
+STR_IRONWORKS_1X1_BUILDINGS_PURCHASE							:4 views, 2CC, animated, randomized
+STR_STAITHES_1X1_MISC											:Brickworks & ironworks
+STR_STAITHES_1X1_MISC_PURCHASE									:4 views, 2CC, randomized
+STR_METALWORKSHOP_1X1_BUILDINGS									:Metal workshop
+STR_METALWORKSHOP_1X1_BUILDINGS_PURCHASE						:Small buildings, 4 views, 2CC, randomized
+STR_BLASTFURNACE_1X1_BUILDINGS									:Blast furnace & steel mill buildings
+STR_BLASTFURNACE_1X1_BUILDINGS_PURCHASE							:4 views, 2CC, randomized
+STR_BLASTFURNACE_2X2_BUILDINGS									:Blast furnace & steel mill shed
+STR_BLASTFURNACE_2X2_BUILDINGS_PURCHASE							:Large building, animated
+STR_BLASTFURNACE_1X1_V											:Blast furnace, steel mill & pyrite smelter vehicles
+STR_BLASTFURNACE_1X1_V_PURCHASE									:4 views, 2CC, randomized
+STR_CHIPSTIPPLEFLOODLOADER_1X1									:CHIPS tipple & flood loader silo
+STR_CHIPSTIPPLEFLOODLOADER_1X1_PURCHASE							:4 views, 2CC, randomized
+STR_CLAY_PIT_G1													:Clay pit 1
+STR_CLAY_PIT_G1_PURCHASE										:1x1 tiles, terrain overlay
+STR_CLAY_PIT_G2													:Clay pit 2
+STR_CLAY_PIT_G2_PURCHASE										:1x1 tiles, terrain overlay
+STR_CLAY_PIT_G3													:Clay pit 3
+STR_CLAY_PIT_G3_PURCHASE										:1x1 tiles, terrain overlay
+STR_PHOSPHATE_MINE_G1											:Phosphate mine pit 1
+STR_PHOSPHATE_MINE_G1_PURCHASE									:1x1 tiles, terrain overlay
+STR_PHOSPHATE_MINE_G2											:Phosphate mine pit 2
+STR_PHOSPHATE_MINE_G2_PURCHASE									:1x1 tiles, terrain overlay
+STR_PHOSPHATE_MINE_G3											:Phosphate mine pit 3
+STR_PHOSPHATE_MINE_G3_PURCHASE									:1x1 tiles, terrain overlay
+STR_QUARRY_G1													:Quarry pit 1
+STR_QUARRY_G1_PURCHASE											:1x1 tiles, terrain overlay
+STR_QUARRY_G2													:Quarry pit 2
+STR_QUARRY_G2_PURCHASE											:1x1 tiles, terrain overlay
+STR_QUARRY_G3													:Quarry pit 3
+STR_QUARRY_G3_PURCHASE											:1x1 tiles, terrain overlay
+STR_PITMINE_1X1_BUILDINGS										:Clay pit, quarry and phosphate mine
+STR_PITMINE_1X1_BUILDINGS_PURCHASE								:4 views, 2CC, randomized
+STR_PAPERMILL_1X1_LARGE											:Paper mill buildings
+STR_PAPERMILL_1X1_LARGE_PURCHASE								:4 views, 2CC, randomized
+STR_PAPERMILL_1X1_SMALL											:Paper mill storage areas
+STR_PAPERMILL_1X1_SMALL_PURCHASE								:4 views, 2CC, randomized
+STR_ASSEMBLYPLANT_1X1_BUILDINGS									:Assembly plant buildings
+STR_ASSEMBLYPLANT_1X1_BUILDINGS_PURCHASE						:4 views, 2CC, randomized
+STR_ASSEMBLYPLANT_1X1_MISCTILES									:Assembly plant misc.
+STR_ALUMINIUMPLANT_1X1_BUILDINGS								:Aluminium plant buildings
+STR_ALUMINIUMPLANT_1X1_BUILDINGS_PURCHASE						:4 views, randomized
+STR_ALUMINIUMPLANT_2X2_HALL										:Aluminium plant hall
+STR_ALUMINIUMPLANT_2X2_HALL_PURCHASE							:2x2
+STR_TYREPLANT_1X1_BUILDINGS										:Tyre plant buildings
+STR_TYREPLANT_1X1_BUILDINGS_PURCHASE							:4 views, 2CC, randomized
+STR_TYREPLANT_1X1_BUILDINGS_SMALL								:Tyre plant small buildings
+STR_TYREPLANT_1X1_BUILDINGS_SMALL_PURCHASE						:?2 views, 2CC, randomized?
+STR_DAIRY_2X2_BUILDINGS											:Dairy plant
+STR_DAIRY_2X2_BUILDINGS_PURCHASE								:4 views, 2CC, randomized, animated
+STR_STOCKYARD_2X2												:Stockyard buildings
+STR_STOCKYARD_2X2_PURCHASE										:TEST, WILL PROBABLY CHANGE
+STR_DOCKS_BUILDINGS_1X1											:Dock buildings
+STR_DOCKS_BUILDINGS_1X1_PURCHASE								:4 views, 2CC, randomized
+STR_DOCKS_CRANE_1_1X1											:Dock cranes with rails
+STR_DOCKS_CRANE_1_1X1_PURCHASE									:4 views, 2CC, randomized
+STR_DOCKS_CRANE_2_1X1											:Dock crane rails
+STR_DOCKS_CRANE_2_1X1_PURCHASE									:4 views, 2CC, randomized
+STR_CRYOPLANT_1X1_BUILDINGS1									:Cryo plant buildings (FIRS 4)
+STR_CRYOPLANT_1X1_BUILDINGS1_PURCHASE							:4 views, 2CC, randomized
+STR_CRYOPLANT_1X1_BUILDINGS2									:Cryo plant buildings (FIRS 4)
+STR_CRYOPLANT_1X1_BUILDINGS2_PURCHASE							:2 views, 2CC, randomized
+STR_CHIPS_BSMALL_1X1_BUILDINGS1									:CHIPS small buildings
+STR_CHIPS_BSMALL_1X1_BUILDINGS1_PURCHASE						:4 views, 2CC, randomized
+STR_CHIPS_BSMALL_1X1_BUILDINGS5									:Grain silos and Lumber mill buildings
+STR_CHIPS_BSMALL_1X1_BUILDINGS5_PURCHASE						:4 views, 2CC, randomized
+STR_TROPIC_BSMALL_1X1_BUILDINGS									:Mediterranean style buildings
+STR_TROPIC_BSMALL_1X1_BUILDINGS_TERRAINAWARE_PURCHASE			:4 views, 2CC, randomized, terrain-aware
+STR_TROPIC_BSMALL_1X1_BUILDINGS_COBBLESTONE_PURCHASE			:4 views, 2CC, randomized
