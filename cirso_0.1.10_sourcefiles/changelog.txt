@@ -1,0 +1,46 @@
+====================================
+CHIPS Industrial Renewal style objects (CIRso) 0.1.10 CHANGELOG
+====================================
+	NewGRF by rotterdxm, based on graphics by the FIRS and ISR/DWE teams.
+	Find me on tt-forums.net or on the OpenTTD Discord.
+	Discuss FaCso and CIRso here:	https://www.tt-forums.net/viewtopic.php?f=26&t=86676
+
+Miscellaneous cargo tiles, ISR/DWE-style fences and many transitional terrain tiles to mix and match your industrial areas. This is the companion mod to FaCso (FIRS and CHIPS style objects), but it can be used by itself.
+
+=======
+GRF Name: cirso.grf
+
+----------------
+Changelog
+----------------
+cirso_0.1.10:
+*	Terrain-aware ISR pipelines added. Will look at making terrain transitions and fence crossings for these.
+
+cirso_0.1.9:
+*	Added the first set of ISR pipelines on dirt, concrete and cobblestone terrain.
+
+cirso_0.1.8:
+*	First main release. From now on, terrain objects, fences, cargo tiles and the like will go in this project rather than FaCso. Release number matches the first main FaCso release, which has had virtually its entire code completely overhauled.
+
+cirso_0.0.1:
+*	Split off this project from FIRS and CHIPS style objects (facso) because I was getting 	close to hitting the 256 object limit for newGRFs.
+
+----------------
+License Exceptions
+----------------
+All assets within the project required to produce the grf (program) are GPL(v2) or GPL(v2)-compatible.
+
+Copying, redistribution or modification of these assets must be GPL(v2) compliant.
+
+Some assets which are optional for producing the grf use free software licenses that are not GPL(v2) compatible.
+
+Copying, redistribution or modification of these assets must be compliant with their respective licenses.
+
+----------------
+Thankyous
+----------------
+Much gratitude to the people who have spent all these years coding, modding, spriting, developing and documenting.
+
+Thanks to GarryG for uploading many of his Auz objects newGRF source files, which I learned quite a bit from.
+
+Special shout outs to seΛn | spnda, Erato and Gwyd on the openTTD Discord for helping me get started with openTTD modding!

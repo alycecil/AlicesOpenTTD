@@ -1,0 +1,141 @@
+##grflangid 0x01
+STR_GRF_NAME                                                    :CHIPS Industrial Renewal style objects - v{VERSION}
+STR_GRF_DESCRIPTION                                             :{TITLE} Miscellaneous cargo tiles, ISR/DWE-style fences and many transitional tiles to mix and match your industrial areas.
+STR_FACG														:FIRS and CHIPS style objects - ground tiles
+STR_FACF														:FIRS and CHIPS style objects - fences & pipelines
+STR_GROUND														:Ground tiles
+STR_GROUND_PURCHASE												:FIRS-style ground tiles
+STR_FACR														:FIRS and CHIPS style objects - resources
+
+STR_RES_BAUXITE													:Bauxite (bulk)
+STR_RES_BAUXITE_PURCHASE										:1x1, 4 views, random variety
+STR_RES_CASSAVA													:Cassava (bulk)
+STR_RES_CASSAVA_PURCHASE										:1x1, 4 views, random variety
+STR_RES_CEMENT													:Cement (bulk)
+STR_RES_CEMENT_PURCHASE											:1x1, 4 views, random variety
+STR_RES_CLAY													:Clay (bulk)
+STR_RES_CLAY_PURCHASE											:1x1, 4 views, random variety
+STR_RES_COAL													:Coal (bulk)
+STR_RES_COAL_PURCHASE											:1x1, 4 views, random variety
+STR_RES_COPPER_ORE												:Copper ore (bulk)
+STR_RES_COPPER_ORE_PURCHASE										:1x1, 4 views, random variety
+STR_RES_IRON_ORE												:Iron ore (bulk)
+STR_RES_IRON_ORE_PURCHASE										:1x1, 4 views, random variety
+STR_RES_KAOLIN													:Kaolin (bulk)
+STR_RES_KAOLIN_PURCHASE											:1x1, 4 views, random variety
+STR_RES_LIMESTONE												:Limestone (bulk)
+STR_RES_LIMESTONE_PURCHASE										:1x1, 4 views, random variety
+STR_RES_MANGANESE_ORE											:Manganese (bulk)
+STR_RES_MANGANESE_ORE_PURCHASE									:1x1, 4 views, random variety
+STR_RES_NITRATES												:Nitrates (bulk)
+STR_RES_NITRATES_PURCHASE										:1x1, 4 views, random variety
+STR_RES_PEAT													:Peat (bulk)
+STR_RES_PEAT_PURCHASE											:1x1, 4 views, random variety
+STR_RES_PHOSPHATE												:Phosphate (bulk)
+STR_RES_PHOSPHATE_PURCHASE										:1x1, 4 views, random variety
+STR_RES_PYRITE_ORE												:Pyrite ore (bulk)
+STR_RES_PYRITE_ORE_PURCHASE										:1x1, 4 views, random variety
+STR_RES_SAND													:Sand (bulk)
+STR_RES_SAND_PURCHASE											:1x1, 4 views, random variety
+STR_RES_SCRAP_METAL												:Scrap metal (bulk)
+STR_RES_SCRAP_METAL_PURCHASE									:1x1, 4 views, random variety
+STR_RES_SLAG													:Slag (bulk)
+STR_RES_SLAG_PURCHASE											:1x1, 4 views, random variety
+STR_RES_SODA_ASH												:Soda ash (bulk)
+STR_RES_SODA_ASH_PURCHASE										:1x1, 4 views, random variety
+STR_RES_STONE													:Stone (bulk)
+STR_RES_STONE_PURCHASE											:1x1, 4 views, random variety
+STR_RES_SUGAR_BEET												:Sugar beet (bulk)
+STR_RES_SUGAR_BEET_PURCHASE										:1x1, 4 views, random variety
+STR_RES_SUGARCANE												:Sugar cane (bulk)
+STR_RES_SUGARCANE_PURCHASE										:1x1, 4 views, random variety
+STR_RES_SULPHUR													:Sulphur (bulk)
+STR_RES_SULPHUR_PURCHASE										:1x1, 4 views, random variety
+STR_RES_ALCOHOL_RUBBER											:Barrels, alcohol/rubber (piece)
+STR_RES_ALCOHOL_RUBBER_PURCHASE									:1x1, 4 views, random variety
+STR_RES_BARRELS_BARE_METAL										:Barrels, metal (piece)
+STR_RES_BARRELS_BARE_METAL_PURCHASE								:1x1, 4 views, random variety
+STR_RES_BARRELS													:Barrels, regular (piece)
+STR_RES_BARRELS_PURCHASE										:1x1, 4 views, random variety
+STR_RES_SUGAR													:Barrels, sugar (piece)
+STR_RES_SUGAR_PURCHASE											:1x1, 4 views, random variety
+STR_RES_CRATES													:Crates (piece)
+STR_RES_CRATES_PURCHASE											:1x1, 4 views, random variety
+STR_RES_CRATES_WHITE											:Crates, white (piece)
+STR_RES_CRATES_WHITE_PURCHASE									:1x1, 4 views, random variety
+STR_RES_COFFEE_NUTS												:Coffee/nuts (piece)
+STR_RES_COFFEE_NUTS_PURCHASE									:1x1, 4 views, random variety
+STR_RES_FRUIT_VEGETABLE											:Fruit/vegetables (piece)
+STR_RES_FRUIT_VEGETABLE_PURCHASE								:1x1, 4 views, random variety
+STR_RES_WOOD													:Wood (piece)
+STR_RES_WOOD_PURCHASE											:1x1, 4 views, random variety
+STR_RES_LUMBER													:Lumber (piece)
+STR_RES_LUMBER_PURCHASE											:1x1, 4 views, random variety
+STR_RES_PAPER													:Paper (piece)
+STR_RES_PAPER_PURCHASE											:1x1, 4 views, random variety
+STR_RES_COPPER													:Copper (piece)
+STR_RES_COPPER_PURCHASE											:1x1, 4 views, random variety
+STR_RES_METAL													:Metal (piece)
+STR_RES_METAL_PURCHASE											:1x1, 4 views, random variety
+STR_RES_PIPE													:Pipe (piece)
+STR_RES_PIPE_PURCHASE											:1x1, 4 views, random variety
+STR_RES_VEHICLE_BODIES											:Vehicle bodies (piece)
+STR_RES_VEHICLE_BODIES_PURCHASE									:1x1, 4 views, random variety
+STR_RES_VEHICLES												:Vehicles (piece)
+STR_RES_VEHICLES_PURCHASE										:1x1, 4 views, random variety
+
+STR_RES_VEHICLESTA												:terrain aware vehicles, cargo tiles
+STR_RES_VEHICLESTA_PURCHASE										:TEST, decide on which snow tile to use
+
+STR_TILE_ISR_FENCE_BOOM											:ISR-style fence w/ boom
+STR_TILE_ISR_FENCE_BOOM_PURCHASE								:Randomized company color (cc1/cc2/cc1+2/cc2+1)
+STR_TILE_ISR_FENCE												:ISR-style fence
+STR_TILE_ISR_FENCE_PURCHASE										:0.1.8 addition
+STR_TILE_TRANSITION_DIRT_CONCRETE								:Dirt/concrete (CHIPS) transitions
+STR_TILE_TRANSITION_DIRT_CONCRETE_PURCHASE						:0.1.8 addition, 2 variants per view
+STR_TILE_TRANSITION_DIRT_COBBLESTONE							:Dirt/cobblestone (FIRS) transitions
+STR_TILE_TRANSITION_DIRT_COBBLESTONE_PURCHASE					:0.1.8 addition, 2 variants per view
+STR_TILE_TRANSITION_DIRT_ISRDWE									:Dirt/concrete (ISR-DWE) transitions
+STR_TILE_TRANSITION_DIRT_ISRDWE_PURCHASE						:0.1.8 addition, 2 variants per view
+STR_TILE_TRANSITION_CONCRETE_COBBLESTONE						:Concrete (CHIPS)/cobblestone (FIRS) transitions
+STR_TILE_TRANSITION_CONCRETE_COBBLESTONE_PURCHASE				:0.1.8 addition, 2 variants per view
+STR_TILE_TRANSITION_CONCRETE_ISRDWE								:Concrete (CHIPS)/concrete (ISR-DWE) transitions
+STR_TILE_TRANSITION_CONCRETE_ISRDWE_PURCHASE					:0.1.8 addition, 2 variants per view
+STR_TILE_TRANSITION_COBBLESTONE_ISRDWE							:Cobblestone (FIRS)/concrete (ISR-DWE) transitions
+STR_TILE_TRANSITION_COBBLESTONE_ISRDWE_PURCHASE					:0.1.8 addition, 2 variants per view
+
+STR_TILE_TRANSITION_DIRT_TERRAINAWARE							:Dirt transitions, terrain-aware
+STR_TILE_TRANSITION_DIRT_TERRAINAWARE_SNOW_FIRS_PURCHASE		:0.1.8 addition, 2 variants per view -- FIRS snow
+STR_TILE_TRANSITION_DIRT_TERRAINAWARE_SNOW_OGFX_PURCHASE		:0.1.8 addition, 2 variants per view -- OGFX snow
+STR_TILE_TRANSITION_CONCRETE_TERRAINAWARE						:Concrete (FIRS) transitions, terrain-aware
+STR_TILE_TRANSITION_CONCRETE_TERRAINAWARE_SNOW_FIRS_PURCHASE	:0.1.8 addition, 2 variants per view -- FIRS snow
+STR_TILE_TRANSITION_CONCRETE_TERRAINAWARE_SNOW_OGFX_PURCHASE	:0.1.8 addition, 2 variants per view -- OGFX snow
+STR_TILE_TRANSITION_COBBLESTONE_TERRAINAWARE					:Cobblestone (FIRS) transitions, terrain-aware
+STR_TILE_TRANSITION_COBBLESTONE_TERRAINAWARE_SNOW_FIRS_PURCHASE	:0.1.8 addition, 2 variants per view -- FIRS snow
+STR_TILE_TRANSITION_COBBLESTONE_TERRAINAWARE_SNOW_OGFX_PURCHASE	:0.1.8 addition, 2 variants per view -- OGFX snow
+STR_TILE_TRANSITION_ISRDWE_TERRAINAWARE							:Concrete (ISR-DWE) transitions, terrain-aware
+STR_TILE_TRANSITION_ISRDWE_TERRAINAWARE_SNOW_FIRS_PURCHASE		:0.1.8 addition, 2 variants per view -- FIRS snow
+STR_TILE_TRANSITION_ISRDWE_TERRAINAWARE_SNOW_OGFX_PURCHASE		:0.1.8 addition, 2 variants per view -- OGFX snow
+
+STR_TILE_TRANSITION_DIRT_CONCRETE_FENCE							:Dirt/concrete (CHIPS) transitions + fence
+STR_TILE_TRANSITION_DIRT_CONCRETE_FENCE_PURCHASE				:CIRso addition, 2 variants per view
+STR_TILE_TRANSITION_DIRT_COBBLESTONE_FENCE						:Dirt/cobblestone (CHIPS) transitions + fence
+STR_TILE_TRANSITION_DIRT_COBBLESTONE_FENCE_PURCHASE				:CIRso addition, 2 variants per view
+STR_TILE_TRANSITION_DIRT_ISRDWE_FENCE							:Dirt/concrete (ISR-DWE) transitions + fence
+STR_TILE_TRANSITION_DIRT_ISRDWE_FENCE_PURCHASE					:CIRso addition, 2 variants per view
+STR_TILE_TRANSITION_CONCRETE_COBBLESTONE_FENCE					:Concrete (CHIPS)/cobblestone (FIRS) transitions + fence
+STR_TILE_TRANSITION_CONCRETE_COBBLESTONE_FENCE_PURCHASE			:CIRso addition, 2 variants per view
+STR_TILE_TRANSITION_CONCRETE_ISRDWE_FENCE						:Concrete (CHIPS)/concrete (ISR-DWE) transitions + fence
+STR_TILE_TRANSITION_CONCRETE_ISRDWE_FENCE_PURCHASE				:CIRso addition, 2 variants per view
+STR_TILE_TRANSITION_COBBLESTONE_ISRDWE_FENCE					:Cobblestone (FIRS)/concrete (ISR-DWE) transitions + fence
+STR_TILE_TRANSITION_COBBLESTONE_ISRDWE_FENCE_PURCHASE			:CIRso addition, 2 variants per view
+
+STR_TILE_ISR_FENCE_TERRAINAWARE									:ISR/DWE fence, terrain-aware
+STR_TILE_ISR_FENCE_TERRAINAWARE_SNOW_FIRS_PURCHASE				:CIRso addition -- FIRS snow
+STR_TILE_ISR_FENCE_TERRAINAWARE_SNOW_OGFX_PURCHASE				:CIRso addition -- OGFX snow
+
+STR_ISR_PIPELINES_DIRT											:ISR/DWE pipelines, dirt
+STR_ISR_PIPELINES_CONCRETE										:ISR/DWE pipelines, concrete
+STR_ISR_PIPELINES_COBBLESTONE									:ISR/DWE pipelines, cobblestone
+STR_ISR_PIPELINES_PURCHASE										:CIRso addition, randomized variants
+STR_ISR_PIPELINES_TERRAINAWARE									:ISR/DWE pipelines, terrain-aware (OGFX snow)
