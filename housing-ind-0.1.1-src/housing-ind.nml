@@ -1,0 +1,449 @@
+grf {
+	grfid: "\4A\44\88\50";
+	name: string(STR_GRF_NAME);
+	desc: string(STR_GRF_DESC);
+	version: 3;
+	min_compatible_version: 0;
+	param {
+		param_placement_rule {
+			type: bool;
+			name: string(string_param_placement_name);
+			desc: string(string_param_placement_desc);
+			def_value: 0;
+			names: {
+				0: string(string_param_placement_0);
+				1: string(string_param_placement_1);
+				};
+			}
+		}
+	}
+
+cargotable {
+	PASS, MAIL, GOOD
+}
+
+template standard_building() {
+	[001,1, 64, 128,  -30, -97, NOCROP]
+}
+
+template standard_building_2() {
+	[066,1, 64, 128,  -30, -97, NOCROP]
+}
+
+template standard_building_3() {
+	[131,1, 64, 128,  -30, -97, NOCROP]
+}
+
+spriteset(default_ground, "sprites/template_bld.png") { standard_building() }
+
+spriteset(tower1, "sprites/tower1.png") { standard_building() }
+
+spriteset(tower1_ground, "sprites/tower1_ground.png") { standard_building() }
+
+spriteset(tower2, "sprites/tower2.png") { standard_building() }
+
+
+
+
+spriteset(large_flats_1_a_set, "sprites/largeflats1.png") { standard_building() }
+spriteset(large_flats_1_b_set, "sprites/largeflats1.png") { standard_building_2() }
+spriteset(large_flats_1_c_set, "sprites/largeflats1.png") { standard_building_3() }
+
+spriteset(tower_3_set, "sprites/medflats3.png") { standard_building() }
+spriteset(tower_3_a_set, "sprites/tower3.png") { standard_building() }
+spriteset(tower_3_b_set, "sprites/tower3.png") { standard_building_2() }
+spriteset(tower_3_c_set, "sprites/tower3.png") { standard_building_3() }
+
+spriteset(flats_4_a_set, "sprites/medflats4.png") { standard_building() }
+spriteset(flats_4_b_set, "sprites/medflats4.png") { standard_building_2() }
+spriteset(tower_4_a_set, "sprites/tower4.png") { standard_building() }
+spriteset(tower_4_b_set, "sprites/tower4.png") { standard_building_2() }
+
+
+
+
+
+//tower block
+spritelayout high_flats_1 {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	childsprite {
+ 		sprite: tower1_ground;
+ 		always_draw: 1; 
+ 	}
+ 	building {
+ 		sprite: tower1;
+	}
+}
+
+//medium flats
+spritelayout med_flats_1 {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: tower2;
+
+	}
+}
+
+
+//ostblock
+spritelayout large_flats_1_a {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: large_flats_1_a_set; // reuse this existing base set sprite
+	}
+}
+spritelayout large_flats_1_b {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: large_flats_1_b_set; // reuse this existing base set sprite
+	}
+}
+spritelayout large_flats_1_c {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: large_flats_1_c_set; // reuse this existing base set sprite
+	}
+}
+
+
+//diagonal towers
+spritelayout med_flats_3 {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: tower_3_set; 
+	}
+}
+spritelayout med_flats_3_a {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: tower_3_a_set; 
+	}
+}
+spritelayout med_flats_3_b {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: tower_3_b_set; 
+	}
+}
+spritelayout med_flats_3_c {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: tower_3_c_set; 
+	}
+}
+
+
+//red towers
+spritelayout red_flats_4_a {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: flats_4_a_set; 
+	}
+}
+spritelayout red_flats_4_b {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: flats_4_b_set; 
+	}
+}
+spritelayout red_tower_4_a {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: tower_4_a_set; 
+	}
+}
+spritelayout red_tower_4_b {
+ 	ground { sprite: GROUNDSPRITE_CONCRETE; }
+ 	building {
+ 		sprite: tower_4_b_set; 
+	}
+}
+
+
+
+/*
+item(FEAT_INDUSTRYTILES, coalmine_tile, 0) {
+	property {
+		substitute:         02;
+		accepted_cargos: [[PASS, 8], [MAIL, 8], [GOOD, 4]];
+		land_shape_flags:   0;
+	}
+}
+*/
+
+item(FEAT_INDUSTRYTILES, high_flats_1_tile, 0) {
+	property {
+		substitute:         02;
+		accepted_cargos: [[PASS, 8], [MAIL, 8], [GOOD, 4]];
+		land_shape_flags:   0;
+	}
+	graphics {
+		default: high_flats_1;
+	}
+}
+
+item(FEAT_INDUSTRYTILES, med_flats_1_tile, 1) {
+	property {
+		substitute:         02;
+		accepted_cargos: [[PASS, 8], [MAIL, 8], [GOOD, 4]];
+		land_shape_flags:   0;
+	}
+	graphics {
+		default: med_flats_1;
+	}
+}
+
+
+
+
+item(FEAT_INDUSTRYTILES, large_flats_1_a_tile, 2) {
+	property {
+		substitute:         02;
+		accepted_cargos: [[PASS, 8], [MAIL, 8], [GOOD, 4]];
+		land_shape_flags:   bitmask(LSF_CANNOT_LOWER_NE_EDGE);
+	}
+	graphics {
+		default: large_flats_1_a;
+	}
+}
+item(FEAT_INDUSTRYTILES, large_flats_1_b_tile, 3) {
+	property {
+		substitute:         02;
+		accepted_cargos: [[PASS, 8], [MAIL, 8], [GOOD, 4]];
+		land_shape_flags:   bitmask(LSF_CANNOT_LOWER_NE_EDGE, LSF_CANNOT_LOWER_SW_EDGE);
+	}
+	graphics {
+		default: large_flats_1_b;
+	}
+}
+item(FEAT_INDUSTRYTILES, large_flats_1_c_tile, 4) {
+	property {
+		substitute:         02;
+		accepted_cargos: [[PASS, 8], [MAIL, 8], [GOOD, 4]];
+		land_shape_flags:   bitmask(LSF_CANNOT_LOWER_SW_EDGE);
+	}
+	graphics {
+		default: large_flats_1_c;
+	}
+}
+
+//diagonal towers
+item(FEAT_INDUSTRYTILES, med_flats_3_a_tile, 5) {
+	property {
+		substitute:         02;
+		accepted_cargos: [[PASS, 8], [MAIL, 8], [GOOD, 4]];
+		land_shape_flags:   bitmask(LSF_CANNOT_LOWER_NE_EDGE);
+	}
+	graphics {
+		default: med_flats_3_a;
+	}
+}
+item(FEAT_INDUSTRYTILES, med_flats_3_b_tile, 6) {
+	property {
+		substitute:         02;
+		accepted_cargos: [[PASS, 8], [MAIL, 8], [GOOD, 4]];
+		land_shape_flags:   bitmask(LSF_CANNOT_LOWER_NE_EDGE, LSF_CANNOT_LOWER_NW_EDGE);
+	}
+	graphics {
+		default: med_flats_3_b;
+	}
+}
+item(FEAT_INDUSTRYTILES, med_flats_3_c_tile, 7) {
+	property {
+		substitute:         02;
+		accepted_cargos: [[PASS, 8], [MAIL, 8], [GOOD, 4]];
+		land_shape_flags:   bitmask(LSF_CANNOT_LOWER_NW_EDGE);
+	}
+	graphics {
+		default: med_flats_3_c;
+	}
+}
+item(FEAT_INDUSTRYTILES, med_flats_3_tile, 8) {
+	property {
+		substitute:         02;
+		accepted_cargos: [[PASS, 8], [MAIL, 8], [GOOD, 4]];
+		land_shape_flags:   bitmask(LSF_CANNOT_LOWER_NW_EDGE, LSF_CANNOT_LOWER_SE_EDGE);
+	}
+	graphics {
+		default: med_flats_3;
+	}
+}
+
+
+
+tilelayout high_flats_layout_1 {
+	0, 0: high_flats_1_tile;
+	1, 0: high_flats_1_tile;
+}
+
+tilelayout high_flats_layout_2 {
+	0, 0: high_flats_1_tile;
+	1, 0: high_flats_1_tile;
+	2, 0: high_flats_1_tile;
+}
+
+tilelayout high_flats_layout_3 {
+	0, 0: high_flats_1_tile;
+	1, 0: high_flats_1_tile;
+	2, 0: high_flats_1_tile;
+	3, 0: high_flats_1_tile;
+}
+
+tilelayout med_flats_layout_1 {
+	0, 0: med_flats_1_tile;
+	2, 2: med_flats_1_tile;
+}
+
+tilelayout med_flats_layout_2 {
+	0, 0: med_flats_1_tile;
+	1, 1: med_flats_1_tile;
+}
+
+tilelayout med_flats_layout_3 {
+	0, 0: med_flats_1_tile;
+	1, 1: med_flats_1_tile;
+	2, 2: med_flats_1_tile;
+}
+
+tilelayout large_flats_layout_1 {
+	0, 0: large_flats_1_c_tile;
+	1, 0: large_flats_1_b_tile;
+	2, 0: large_flats_1_a_tile;
+}
+
+tilelayout large_flats_layout_2 {
+	0, 0: large_flats_1_c_tile;
+	1, 0: large_flats_1_b_tile;
+	2, 0: large_flats_1_a_tile;
+	3, 0: large_flats_1_c_tile;
+	4, 0: large_flats_1_b_tile;
+	5, 0: large_flats_1_a_tile;
+}
+
+tilelayout large_flats_layout_3 {
+	0, 0: large_flats_1_c_tile;
+	1, 0: large_flats_1_b_tile;
+	2, 0: large_flats_1_a_tile;
+	0, 2: large_flats_1_c_tile;
+	1, 2: large_flats_1_b_tile;
+	2, 2: large_flats_1_a_tile;
+}
+
+tilelayout large_flats_layout_4 {
+	0, 0: large_flats_1_c_tile;
+	1, 0: large_flats_1_b_tile;
+	2, 0: large_flats_1_a_tile;
+	3, 0: large_flats_1_c_tile;
+	4, 0: large_flats_1_b_tile;
+	5, 0: large_flats_1_a_tile;
+	0, 2: large_flats_1_c_tile;
+	1, 2: large_flats_1_b_tile;
+	2, 2: large_flats_1_a_tile;
+	3, 2: large_flats_1_c_tile;
+	4, 2: large_flats_1_b_tile;
+	5, 2: large_flats_1_a_tile;
+}
+
+tilelayout diag_flats_layout_1 {
+	0, 1: med_flats_3_c_tile;
+	1, 0: med_flats_3_a_tile;
+	1, 1: med_flats_3_b_tile;
+}
+
+tilelayout diag_flats_layout_2 {
+	1, 0: med_flats_3_tile;
+	0, 2: med_flats_3_c_tile;
+	1, 1: med_flats_3_a_tile;
+	1, 2: med_flats_3_b_tile;
+}
+
+tilelayout diag_flats_layout_3 {
+	1, 0: med_flats_3_b_tile;
+	0, 0: med_flats_3_c_tile;
+	0, 2: med_flats_3_tile;
+}
+
+tilelayout diag_flats_layout_4 {
+	1, 0: med_flats_3_tile;
+	1, 1: med_flats_3_b_tile;
+	0, 1: med_flats_3_c_tile;
+	0, 2: med_flats_3_tile;
+}
+
+tilelayout diag_flats_layout_5 {
+	0, 0: med_flats_3_tile;
+	0, 1: med_flats_3_tile;
+}
+
+
+if(param_placement_rule == 1) {
+item(FEAT_INDUSTRIES, highrise_block_1) {
+	property {
+		substitute: 0;
+		layouts: [
+				high_flats_layout_1,
+				high_flats_layout_2,
+				high_flats_layout_3,
+				med_flats_layout_1,
+				med_flats_layout_2,
+				med_flats_layout_3,
+				large_flats_layout_1,
+				large_flats_layout_2,
+				large_flats_layout_3,
+				large_flats_layout_4,
+				diag_flats_layout_1,
+				diag_flats_layout_2,
+				diag_flats_layout_3,
+				diag_flats_layout_4,
+				diag_flats_layout_5
+			];
+		life_type:  IND_LIFE_TYPE_BLACK_HOLE;
+		prod_cargo_types:   [PASS, MAIL];
+		accept_cargo_types: [PASS, MAIL, GOOD];
+//		prod_multiplier: 50;
+		spec_flags: bitmask(IND_FLAG_BUILT_ONLY_AFTER_1960);
+		name: string(STR_HIRISE_1_NAME);
+		prod_multiplier: [40, 8];
+		prob_random: 0;
+		prob_in_game: 0;
+		fund_cost_multiplier: 20;
+		map_colour: 143;
+		}
+	}
+} else {
+item(FEAT_INDUSTRIES, highrise_block_1) {
+	property {
+		substitute: 0;
+		layouts: [
+				high_flats_layout_1,
+				high_flats_layout_2,
+				high_flats_layout_3,
+				med_flats_layout_1,
+				med_flats_layout_2,
+				med_flats_layout_3,
+				large_flats_layout_1,
+				large_flats_layout_2,
+				large_flats_layout_3,
+				large_flats_layout_4,
+				diag_flats_layout_1,
+				diag_flats_layout_2,
+				diag_flats_layout_3,
+				diag_flats_layout_4,
+				diag_flats_layout_5
+			];
+		life_type:  IND_LIFE_TYPE_BLACK_HOLE;
+		prod_cargo_types:   [PASS, MAIL];
+		accept_cargo_types: [PASS, MAIL, GOOD];
+//		prod_multiplier: 50;
+		spec_flags: bitmask(IND_FLAG_BUILT_NEAR_TOWN, IND_FLAG_BUILT_ONLY_AFTER_1960);
+		name: string(STR_HIRISE_1_NAME);
+		prod_multiplier: [40, 8];
+		prob_random: 0;
+		prob_in_game: 0;
+		fund_cost_multiplier: 20;
+		map_colour: 143;
+		}
+	}
+}
+
+

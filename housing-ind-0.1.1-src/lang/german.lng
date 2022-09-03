@@ -1,0 +1,11 @@
+##grflangid 0x02
+
+
+STR_GRF_NAME :Wohngebiete als Industrie 0.1.1
+STR_GRF_DESC :Wohngebiete bebaubar als Industrien, für erhöhte Passagier- und Postproduktion in Städten. Coded von Emperor Jake, Grafiken von die TTRS-Team.
+STR_HIRISE_1_NAME :Wohnblock
+
+string_param_placement_name		:Erlaubt Wohngebiete weiter von Städten
+string_param_placement_desc		:Deaktiviert Platzierungsbeschränkungen, sodass Wohngebiete überall erstellt werden können
+string_param_placement_0		:Aus
+string_param_placement_1		:Ein

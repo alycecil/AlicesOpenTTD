@@ -1,0 +1,12 @@
+##grflangid 0x01
+
+lang: 7F
+
+STR_GRF_NAME :Housing as Industry 0.1.1 
+STR_GRF_DESC :Apartment complexes buildable as industries which can boost passenger and mail production in towns. Now with parameter to remove placement restrictions. Coded by Emperor Jake, graphics by the TTRS Team.
+STR_HIRISE_1_NAME :Apartment Block
+
+string_param_placement_name		:Allow apartment complexes to be built away from towns
+string_param_placement_desc		:Disables placement restrictions, allowing apartment complexes to be built anywhere
+string_param_placement_0		:Off
+string_param_placement_1		:On
