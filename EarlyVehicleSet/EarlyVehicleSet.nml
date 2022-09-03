@@ -45,7 +45,7 @@ item(FEAT_ROADVEHS, mps_stagecoach){
         speed: 35 km/h;
         power: 10 hp;
         weight: 6 ton;
-        cargo_capacity: 10;
+        cargo_capacity: 20;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_PASSENGERS);
         default_cargo_type: PASS;
@@ -75,7 +75,7 @@ item(FEAT_ROADVEHS, perry_omnibus){
         speed: 42 km/h;
         power: 10 hp;
         weight: 10 ton;
-        cargo_capacity: 20;
+        cargo_capacity: 33;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_PASSENGERS);
         default_cargo_type: PASS;
@@ -105,7 +105,7 @@ item(FEAT_ROADVEHS, balogh_bus){
         speed: 40 km/h;
         power: 60 hp;
         weight: 10 ton;
-        cargo_capacity: 25;
+        cargo_capacity: 40;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_PASSENGERS);
         default_cargo_type: PASS;
@@ -136,7 +136,7 @@ item(FEAT_ROADVEHS, mps_wagon){
         speed: 35 km/h;
         power: 10 hp;
         weight: 6 ton;
-        cargo_capacity: 10;
+        cargo_capacity: 20;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: ALL_CARGO_CLASSES;
         non_refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_LIQUID, CC_BULK);
@@ -235,7 +235,7 @@ item(FEAT_ROADVEHS, witcombe_mineral){
         speed: 35 km/h;
         power: 10 hp;
         weight: 6 ton;
-        cargo_capacity: 10;
+        cargo_capacity: 20;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_BULK);
         default_cargo_type: COAL;
@@ -277,7 +277,7 @@ item(FEAT_ROADVEHS, thomas_tanker){
         speed: 35 km/h;
         power: 10 hp;
         weight: 6 ton;
-        cargo_capacity: 10;
+        cargo_capacity: 20;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_LIQUID);
         default_cargo_type: OIL_;
@@ -309,7 +309,7 @@ item(FEAT_ROADVEHS, thomas_armored){
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
-        cargo_capacity: 10;
+        cargo_capacity: 20;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_ARMOURED);
         default_cargo_type: VALU;
@@ -363,7 +363,7 @@ item(FEAT_ROADVEHS, mps_bolster){
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
-        cargo_capacity: 12;
+        cargo_capacity: 25;
         climates_available: ALL_CLIMATES;
         cargo_allow_refit: [STEL, COPR, ZINC, ALUM, IRON, METL, SCMT, STAL, STCB, STSE, STSH, STST, STWR, PAPR];
         default_cargo_type: STEL;
@@ -394,7 +394,7 @@ item(FEAT_ROADVEHS, balogh_food){
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
-        cargo_capacity: 15;
+        cargo_capacity: 26;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_REFRIGERATED);
         non_refittable_cargo_classes: bitmask(CC_LIQUID);
@@ -436,7 +436,7 @@ item(FEAT_ROADVEHS, witcombe_fruit){
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
-        cargo_capacity: 12;
+        cargo_capacity: 25;
         climates_available: ALL_CLIMATES;
         cargo_allow_refit: [FRUT, FRVG, SGCN];
         default_cargo_type: FRUT;
@@ -467,7 +467,7 @@ item(FEAT_ROADVEHS, thomas_goods){
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
-        cargo_capacity: 12;
+        cargo_capacity: 25;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_PIECE_GOODS);
         non_refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_MAIL, CC_ARMOURED, CC_LIQUID, CC_REFRIGERATED);
@@ -501,7 +501,7 @@ item(FEAT_ROADVEHS, perry_livestock){
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
-        cargo_capacity: 10;
+        cargo_capacity: 20;
         climates_available: ALL_CLIMATES;
         default_cargo_type: LVST;
         running_cost_base: RUNNING_COST_ROADVEH;
@@ -530,7 +530,7 @@ item(FEAT_ROADVEHS, balogh_mail){
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
-        cargo_capacity: 18;
+        cargo_capacity: 28;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_MAIL);
         default_cargo_type: MAIL;
@@ -627,7 +627,7 @@ item(FEAT_ROADVEHS, mps_mineral){
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
-        cargo_capacity: 15;
+        cargo_capacity: 26;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_BULK);
         default_cargo_type: COAL;
@@ -668,7 +668,7 @@ item(FEAT_ROADVEHS, mps_tanker){
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
-        cargo_capacity: 18;
+        cargo_capacity: 28;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_LIQUID);
         default_cargo_type: OIL_;
@@ -708,7 +708,7 @@ item(FEAT_ROADVEHS, perry_wood){
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
-        cargo_capacity: 15;
+        cargo_capacity: 26;
         climates_available: ALL_CLIMATES;
         cargo_allow_refit: [WOOD, TWOD];
         default_cargo_type: WOOD;
