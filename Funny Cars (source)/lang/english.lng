@@ -1,0 +1,11 @@
+﻿##grflangid 0x01
+
+STR_GRF_NAME	:Funny Cars {VERSION}
+STR_GRF_DESC	:{BLACK}Description: {SILVER}A small set of five eyecandy vehicles. For fun only, not for serious gameplay! {}{BLACK}Graphics: {SILVER}{GRAPHICS}{}{BLACK}Code: {SILVER}{CODE}{}{BLACK}Date: {SILVER}{DATE}{}{BLACK}Licence: {SILVER}{LICENCE}
+STR_GRF_URL	:{WEBSITE}
+
+STR_NAME_TAXI_1		:Universelles Taxi 1
+STR_NAME_TAXI_2		:Universelles Taxi 2
+STR_NAME_TAXI_MOD	:Modernes Taxi
+STR_NAME_PIZZABOTE	:Pizzabote
+STR_NAME_F1_JORDAN	:F1 Jordan

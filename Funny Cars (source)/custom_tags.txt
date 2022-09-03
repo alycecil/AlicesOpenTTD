@@ -1,0 +1,6 @@
+VERSION		:v1.0
+GRAPHICS	:Ignus, AnD
+CODE		:PaulC, Bernhard
+DATE		:2018-12-30
+LICENCE		:CC-0 v1.0
+WEBSITE		:https://www.tt-forums.net/viewtopic.php?f=67&t=84564
