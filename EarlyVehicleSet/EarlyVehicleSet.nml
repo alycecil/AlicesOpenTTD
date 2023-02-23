@@ -41,15 +41,15 @@ item(FEAT_ROADVEHS, mps_stagecoach){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
-        running_cost_factor: 10;
+        running_cost_factor: 5;
         speed: 35 km/h;
-        power: 10 hp;
+        power: 15 hp;
         weight: 6 ton;
         cargo_capacity: 20;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_PASSENGERS);
         default_cargo_type: PASS;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
         misc_flags: bitmask(ROADVEH_FLAG_NO_BREAKDOWN_SMOKE);
@@ -71,15 +71,15 @@ item(FEAT_ROADVEHS, perry_omnibus){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 15;
-        running_cost_factor: 10;
+        running_cost_factor: 5;
         speed: 42 km/h;
-        power: 10 hp;
+        power: 15 hp;
         weight: 10 ton;
         cargo_capacity: 33;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_PASSENGERS);
         default_cargo_type: PASS;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
         misc_flags: bitmask(ROADVEH_FLAG_NO_BREAKDOWN_SMOKE);
@@ -101,7 +101,7 @@ item(FEAT_ROADVEHS, balogh_bus){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 80;
-        running_cost_factor: 75;
+        running_cost_factor: 5;
         speed: 40 km/h;
         power: 60 hp;
         weight: 10 ton;
@@ -109,7 +109,7 @@ item(FEAT_ROADVEHS, balogh_bus){
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_PASSENGERS);
         default_cargo_type: PASS;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
     }
@@ -132,16 +132,16 @@ item(FEAT_ROADVEHS, mps_wagon){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
-        running_cost_factor: 10;
+        running_cost_factor: 5;
         speed: 35 km/h;
-        power: 10 hp;
+        power: 15 hp;
         weight: 6 ton;
         cargo_capacity: 20;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: ALL_CARGO_CLASSES;
         non_refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_LIQUID, CC_BULK);
         default_cargo_type: GOOD;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
         misc_flags: bitmask(ROADVEH_FLAG_NO_BREAKDOWN_SMOKE);
@@ -231,15 +231,15 @@ item(FEAT_ROADVEHS, witcombe_mineral){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
-        running_cost_factor: 10;
+        running_cost_factor: 5;
         speed: 35 km/h;
-        power: 10 hp;
+        power: 15 hp;
         weight: 6 ton;
         cargo_capacity: 20;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_BULK);
         default_cargo_type: COAL;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
         misc_flags: bitmask(ROADVEH_FLAG_NO_BREAKDOWN_SMOKE);
@@ -273,15 +273,15 @@ item(FEAT_ROADVEHS, thomas_tanker){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 10;
-        running_cost_factor: 10;
+        running_cost_factor: 5;
         speed: 35 km/h;
-        power: 10 hp;
+        power: 15 hp;
         weight: 6 ton;
         cargo_capacity: 20;
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_LIQUID);
         default_cargo_type: OIL_;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
         misc_flags: bitmask(ROADVEH_FLAG_NO_BREAKDOWN_SMOKE);
@@ -305,7 +305,7 @@ item(FEAT_ROADVEHS, thomas_armored){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 85;
-        running_cost_factor: 70;
+        running_cost_factor: 5;
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
@@ -313,7 +313,7 @@ item(FEAT_ROADVEHS, thomas_armored){
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_ARMOURED);
         default_cargo_type: VALU;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
     }
@@ -359,7 +359,7 @@ item(FEAT_ROADVEHS, mps_bolster){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 80;
-        running_cost_factor: 70;
+        running_cost_factor: 5;
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
@@ -367,7 +367,7 @@ item(FEAT_ROADVEHS, mps_bolster){
         climates_available: ALL_CLIMATES;
         cargo_allow_refit: [STEL, COPR, ZINC, ALUM, IRON, METL, SCMT, STAL, STCB, STSE, STSH, STST, STWR, PAPR];
         default_cargo_type: STEL;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
     }
@@ -390,7 +390,7 @@ item(FEAT_ROADVEHS, balogh_food){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 75;
-        running_cost_factor: 70;
+        running_cost_factor: 5;
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
@@ -400,7 +400,7 @@ item(FEAT_ROADVEHS, balogh_food){
         non_refittable_cargo_classes: bitmask(CC_LIQUID);
         cargo_disallow_refit: [FRUT, FRVG];
         default_cargo_type: FOOD;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
     }
@@ -432,7 +432,7 @@ item(FEAT_ROADVEHS, witcombe_fruit){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 80;
-        running_cost_factor: 70;
+        running_cost_factor: 5;
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
@@ -440,7 +440,7 @@ item(FEAT_ROADVEHS, witcombe_fruit){
         climates_available: ALL_CLIMATES;
         cargo_allow_refit: [FRUT, FRVG, SGCN];
         default_cargo_type: FRUT;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
     }
@@ -463,7 +463,7 @@ item(FEAT_ROADVEHS, thomas_goods){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 70;
-        running_cost_factor: 70;
+        running_cost_factor: 5;
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
@@ -474,7 +474,7 @@ item(FEAT_ROADVEHS, thomas_goods){
         cargo_allow_refit: [GOOD];
         cargo_disallow_refit: [LVST, WOOD, STEL, COPR, TWOD, ZINC, ALUM, IRON, METL, STAL, STCB, STSE, STSH, STST, STWR, PAPR];
         default_cargo_type: GOOD;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
     }
@@ -497,7 +497,7 @@ item(FEAT_ROADVEHS, perry_livestock){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 75;
-        running_cost_factor: 70;
+        running_cost_factor: 5;
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
@@ -526,7 +526,7 @@ item(FEAT_ROADVEHS, balogh_mail){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 75;
-        running_cost_factor: 70;
+        running_cost_factor: 5;
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
@@ -534,7 +534,7 @@ item(FEAT_ROADVEHS, balogh_mail){
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_MAIL);
         default_cargo_type: MAIL;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
     }
@@ -623,7 +623,7 @@ item(FEAT_ROADVEHS, mps_mineral){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 70;
-        running_cost_factor: 70;
+        running_cost_factor: 5;
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
@@ -631,7 +631,7 @@ item(FEAT_ROADVEHS, mps_mineral){
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_BULK);
         default_cargo_type: COAL;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
     }
@@ -664,7 +664,7 @@ item(FEAT_ROADVEHS, mps_tanker){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 75;
-        running_cost_factor: 70;
+        running_cost_factor: 5;
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
@@ -672,7 +672,7 @@ item(FEAT_ROADVEHS, mps_tanker){
         climates_available: ALL_CLIMATES;
         refittable_cargo_classes: bitmask(CC_LIQUID);
         default_cargo_type: OIL_;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
     }
@@ -704,7 +704,7 @@ item(FEAT_ROADVEHS, perry_wood){
         vehicle_life: 27;
         loading_speed: 5;
         cost_factor: 75;
-        running_cost_factor: 70;
+        running_cost_factor: 5;
         speed: 35 km/h;
         power: 70 hp;
         weight: 9 ton;
@@ -712,7 +712,7 @@ item(FEAT_ROADVEHS, perry_wood){
         climates_available: ALL_CLIMATES;
         cargo_allow_refit: [WOOD, TWOD];
         default_cargo_type: WOOD;
-        refit_cost: 4;
+        refit_cost: 0;
         running_cost_base: RUNNING_COST_ROADVEH;
         sprite_id: SPRITE_ID_NEW_ROADVEH;
     }
@@ -892,6 +892,34 @@ spriteset(spriteset_john_bull, "gfx/johnBull.png"){
     tmpl_vehicle(0)
 }
 
+item(FEAT_TRAINS, horse_train_alice){    //https://en.wikipedia.org/wiki/John_Bull_(locomotive)
+    property{
+        name: string(STR_MPS_STAGECOACH);
+        climates_available: ALL_CLIMATES;
+        introduction_date: date(1000, 1, 1);
+        model_life: 35;
+        vehicle_life: 27;
+        speed: 40 km/h;
+        tractive_effort_coefficient: 0.6;
+        weight: 9 ton;
+        track_type: RAIL;
+        power: 150;
+        cost_factor: 4;
+        running_cost_base: RUNNING_COST_STEAM;
+        running_cost_factor: 5;
+        engine_class: ENGINE_CLASS_STEAM;
+        sprite_id: SPRITE_ID_NEW_ROADVEH;
+        reliability_decay: 25;
+        cargo_capacity: 33;
+		default_cargo_type: PASS;
+        refittable_cargo_classes: ALL_CARGO_CLASSES;
+        misc_flags: bitmask(ROADVEH_FLAG_NO_BREAKDOWN_SMOKE);
+    }
+    graphics{
+        default: spriteset_mps_stagecoach;
+    }
+}
+
 item(FEAT_TRAINS, john_bull){    //https://en.wikipedia.org/wiki/John_Bull_(locomotive)
     property{
         name: string(STR_JOHN_BULL);
@@ -906,7 +934,7 @@ item(FEAT_TRAINS, john_bull){    //https://en.wikipedia.org/wiki/John_Bull_(loco
         power: 150;
         cost_factor: 4;
         running_cost_base: RUNNING_COST_STEAM;
-        running_cost_factor: 30;
+        running_cost_factor: 5;
         engine_class: ENGINE_CLASS_STEAM;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         reliability_decay: 25;
@@ -934,7 +962,7 @@ item(FEAT_TRAINS, lady_of_the_lake){    //https://en.wikipedia.org/wiki/LNWR_Lad
         power: 200;
         cost_factor: 5;
         running_cost_base: RUNNING_COST_STEAM;
-        running_cost_factor: 35;
+        running_cost_factor: 5;
         engine_class: ENGINE_CLASS_STEAM;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         reliability_decay: 20;
@@ -962,7 +990,7 @@ item(FEAT_TRAINS, wolverhampton_2021){    //https://en.wikipedia.org/wiki/GWR_20
         power: 250;
         cost_factor: 6;
         running_cost_base: RUNNING_COST_STEAM;
-        running_cost_factor: 45;
+        running_cost_factor: 5;
         engine_class: ENGINE_CLASS_STEAM;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         reliability_decay: 20;
